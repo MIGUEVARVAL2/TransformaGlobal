@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Barlow-SemiBold';
+    src: url('Barlow-SemiBold.ttf') format('opentype');
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Barlow-SemiBold', sans-serif;
+}
+
+
+
+@keyframes pulsar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+.rebote-completo:hover {
+animation: pulsar 1s ease infinite;
+}
+  
+.custom-container {
+    height: 70px;
+    overflow-x: auto;
+    white-space: nowrap;
+    animation: agrandar 2s ease;
+  }
+  
+  @keyframes agrandar {
+    0% { transform: scale(0.5); opacity: 0;}
+    100% { transform: scale(1); opacity: 1;}
+  }
+
+.custom-container a {
+    margin: 5px;
+    font-size: 12PX;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-primary{
+    color: black;
+    border: 3px solid #D24C2B;
+}
+
+.btn-outline-primary-activate{
+    color: black;
+    background-color: #f8eae6;
+    border-color: #D24C2B;
+}
+
+@keyframes mover-izq-dere {
+  0% {
+      transform: translateX(0); /* Comienza desde la posición original (0px) */
+  }
+  50% {
+      transform: translateX(5px); /* Mueve 50px hacia la derecha */
+  }
+  100% {
+      transform: translateX(0); /* Regresa a la posición original (0px) */
+  }
+}
+
+.btn-outline-primary:hover{
+    color: black;
+    background-color: #f8eae6;
+    border-color: #D24C2B;
+}
+
+.mover-izq-dere:hover{
+  animation: mover-izq-dere 0.5s ease infinite;
+}
+
+.contenedor-opciones{
+  margin:10px
+}
+
+.botones-flotantes{
+  position: absolute;
+  top: 35%;
+  right: 0px;
+}
+
+.btn-normograma{
+  background-color: #FC9A36;
+  text-align: left;
+  color: white;
+}
+.btn-normograma:hover,
+.btn-normograma:focus {
+  background-color: #FC9A36;
+  color: white;
+}
+
+.botones-flotantes:hover{
+  text-align: left;
+  color: white;
+  right: 0px;
+  transition: all 0.5s ease;
+}
+
+
+.btn-explorador-instrumentos{
+  background-color: #1E4844;
+  color: white;
+}
+.btn-explorador-instrumentos:hover,
+.btn-explorador-instrumentos:focus{
+  background-color: #1E4844;
+  color: white;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+.dropdown-menu {
+  animation: aparecer 0.5s ease;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+a{
+  color: black;
+}
+
+footer{
+  background-color: #1E4844;
+  color: white;
+}
+
+footer a{
+  color: white;
+}
