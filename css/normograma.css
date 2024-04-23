@@ -45,12 +45,17 @@
 }
 
 .octagono {
-    width: 100px; /* Ancho del octágono */
-    height: 100px; /* Altura del octágono */
-    background-color: #FED7AF; /* Color de fondo del octágono */
-    position: relative;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); /* Forma del octágono */
-    transform: rotate(45deg); /* Rotación para obtener un octágono */
+  width: 100px;
+  /* Ancho del octágono */
+  height: 100px;
+  /* Altura del octágono */
+  background-color: #FED7AF;
+  /* Color de fondo del octágono */
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  /* Forma del octágono */
+  transform: rotate(45deg);
+  /* Rotación para obtener un octágono */
 }
 
 .timeline ul li div::before {
@@ -131,6 +136,7 @@ time {
   .timeline ul li div {
     width: 250px;
   }
+
   .timeline ul li:nth-child(even) div {
     left: -289px;
     /*250+45-6*/
@@ -141,12 +147,15 @@ time {
   .timeline ul li {
     margin-left: 20px;
   }
+
   .timeline ul li div {
     width: calc(100vw - 91px);
   }
+
   .timeline ul li:nth-child(even) div {
     left: 45px;
   }
+
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
@@ -172,30 +181,26 @@ time {
 }
 
 .timeline-star ul li::after {
-  clip-path: polygon(
-    50% 0%,
-    61% 35%,
-    98% 35%,
-    68% 57%,
-    79% 91%,
-    50% 70%,
-    21% 91%,
-    32% 57%,
-    2% 35%,
-    39% 35%
-  );
+  clip-path: polygon(50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%);
 }
 
 .timeline-heptagon ul li::after {
-  clip-path: polygon(
-    50% 0%,
-    90% 20%,
-    100% 60%,
-    75% 100%,
-    25% 100%,
-    0% 60%,
-    10% 20%
-  );
+  clip-path: polygon(50% 0%,
+      90% 20%,
+      100% 60%,
+      75% 100%,
+      25% 100%,
+      0% 60%,
+      10% 20%);
 }
 
 .timeline-infinite ul li::after {
@@ -206,9 +211,11 @@ time {
   0% {
     transform: translateX(-50%) scale(1);
   }
+
   50% {
     transform: translateX(-50%) scale(1.25);
   }
+
   100% {
     transform: translateX(-50%) scale(1);
   }
@@ -219,6 +226,7 @@ time {
     opacity: 0;
     transform: translateX(100%);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -226,9 +234,17 @@ time {
 }
 
 @keyframes pulsar {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.2); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* FOOTER STYLES
@@ -250,21 +266,22 @@ time {
 }
 
 
-.footer-norma a{
-  color:#4D6262
+.footer-norma a {
+  color: #4D6262
 }
-.footer-norma a:hover{
+
+.footer-norma a:hover {
   color: black;
   animation: aparecer 1s ease;
 }
 
-.link-norma{
+.link-norma {
   color: #4D6262;
   font-weight: bold;
   animation: none !important;
 }
 
-.items-anios{
+.items-anios {
   width: 100%;
   height: 40px;
   overflow-x: scroll;
@@ -272,20 +289,22 @@ time {
   color: black;
 }
 
-.items-anios .nav-link{
+.items-anios .nav-link {
   color: black;
 }
-.items-anios .nav-link:hover{
+
+.items-anios .nav-link:hover {
   color: #4D6262;
   font-weight: bold;
   animation: pulsar 1s ease infinite;
 }
 
-.items-anios .nav-link.active{
+.items-anios .nav-link.active {
   background-color: #4D6262;
   font-weight: bold;
 }
-.items-anios .nav-link.active:hover{
+
+.items-anios .nav-link.active:hover {
   background-color: #4D6262;
   font-weight: bold;
   color: white;

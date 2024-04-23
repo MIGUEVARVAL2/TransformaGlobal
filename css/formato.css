@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Barlow-SemiBold';
-    src: url('Barlow-SemiBold.ttf') format('opentype');
+  font-family: 'Barlow-SemiBold';
+  src: url('Barlow-SemiBold.ttf') format('opentype');
 }
 
 @font-face {
@@ -9,14 +9,29 @@
 }
 
 @keyframes pulsar {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
   }
 
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 @keyframes agrandar {
-  0% { transform: scale(0.5); opacity: 0;}
-  100% { transform: scale(1); opacity: 1;}
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @keyframes aparecer {
@@ -24,6 +39,7 @@
     opacity: 0;
     transform: translateX(100%);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -32,13 +48,18 @@
 
 @keyframes mover-izq-dere {
   0% {
-      transform: translateX(0); /* Comienza desde la posición original (0px) */
+    transform: translateX(0);
+    /* Comienza desde la posición original (0px) */
   }
+
   50% {
-      transform: translateX(5px); /* Mueve 50px hacia la derecha */
+    transform: translateX(5px);
+    /* Mueve 50px hacia la derecha */
   }
+
   100% {
-      transform: translateX(0); /* Regresa a la posición original (0px) */
+    transform: translateX(0);
+    /* Regresa a la posición original (0px) */
   }
 }
 
@@ -46,89 +67,112 @@
   font-family: 'Barlow-Medium', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Barlow-SemiBold', sans-serif !important;
 }
 
-a, a:hover, a:focus, a:active{
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: black;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
 
-  
+
 .rebote-completo:hover {
-animation: pulsar 1s ease infinite;
+  animation: pulsar 1s ease infinite;
 }
 
-.mover-izq-dere:hover{
+.mover-izq-dere:hover {
   animation: mover-izq-dere 0.5s ease infinite;
 }
-  
-  
+
+
+
 .nav-opciones {
-    margin: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-opciones a {
-    height: 50px;
-    width: 200px;
+  height: 50px;
+  width: 200px;
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1420px) {
+  .nav-opciones a {
+    height: 60px;
+    width: 150px;
     color: black;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
 }
 
-.btn-outline-primary{
-    color: black;
-    border: 3px solid #D24C2B;
+.btn-outline-primary {
+  color: black;
+  border: 3px solid #D24C2B;
 }
 
-.btn-outline-primary-activate{
-    color: black;
-    background-color: #f8eae6;
-    border-color: #D24C2B;
+.btn-outline-primary-activate {
+  color: black;
+  background-color: #f8eae6;
+  border-color: #D24C2B;
 }
 
-.btn-outline-primary:hover{
-    color: black;
-    background-color: #f8eae6;
-    border-color: #D24C2B;
+.btn-outline-primary:hover {
+  color: black;
+  background-color: #f8eae6;
+  border-color: #D24C2B;
 }
 
-.contenedor-opciones{
-  margin:10px;
+.contenedor-opciones {
+  margin: 10px;
   font-size: 12px;
-  
+
 }
 
-.botones-flotantes{
+.botones-flotantes {
   position: absolute;
   top: 35%;
   right: 0px;
 }
 
-.btn-normograma{
+.btn-normograma {
   background-color: #FC9A36;
   text-align: left;
   color: white;
 }
+
 .btn-normograma:hover,
 .btn-normograma:focus {
   background-color: #FC9A36;
   color: white;
 }
 
-.botones-flotantes:hover{
+.botones-flotantes:hover {
   text-align: left;
   color: white;
   right: 0px;
@@ -136,17 +180,18 @@ animation: pulsar 1s ease infinite;
 }
 
 
-.btn-explorador-instrumentos{
-  background-color: #1E4844;
-  color: white;
-}
-.btn-explorador-instrumentos:hover,
-.btn-explorador-instrumentos:focus{
+.btn-explorador-instrumentos {
   background-color: #1E4844;
   color: white;
 }
 
-body{
+.btn-explorador-instrumentos:hover,
+.btn-explorador-instrumentos:focus {
+  background-color: #1E4844;
+  color: white;
+}
+
+body {
   overflow-x: hidden;
 }
 
@@ -158,20 +203,32 @@ body{
 
 
 
-a{
+a {
   color: black;
 }
 
-footer{
+footer {
   background-color: #1E4844;
   color: white;
 }
 
-footer a{
+footer a {
   color: white;
 }
 
 
 .navbar-content {
-  justify-content: center; /* Centrar horizontalmente */
+  justify-content: center;
+  /* Centrar horizontalmente */
+}
+
+
+.instruccion{
+  background-color: #f8eae6;
+  max-width: 500px;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
