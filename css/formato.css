@@ -63,6 +63,17 @@
   }
 }
 
+@keyframes opacidad {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
 * {
   font-family: 'Barlow-Medium', sans-serif;
 }
@@ -86,6 +97,16 @@ a:active {
 
 body {
   overflow-x: hidden;
+}
+
+footer a{
+  text-decoration: underline;
+}
+
+footer a:hover{
+  color: #D24C2B;
+  text-decoration: underline;
+  animation: opacidad 1s ease;
 }
 
 
@@ -118,7 +139,7 @@ body {
   justify-content: center;
 }
 
-@media (max-width: 1420px) {
+@media (min-width: 990px) and (max-width: 1420px) {
   .nav-opciones a {
     height: 60px;
     width: 150px;
