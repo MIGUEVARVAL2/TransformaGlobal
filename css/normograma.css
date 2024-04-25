@@ -82,7 +82,7 @@
 .btn-animation.collision.color1 {
   position: relative;
   color: #7c473d;
-  background-color: #7c473d4b;
+  background-color: #7c473d1e;
 }
 .btn-animation.collision.color1:before,
 .btn-animation.collision.color1:after {
@@ -98,7 +98,7 @@
 .btn-animation.collision.color2 {
   position: relative;
   color: #9e3920;
-  background-color: #9e39204d;
+  background-color: #9e39201f;
 }
 .btn-animation.collision.color2:before,
 .btn-animation.collision.color2:after {
@@ -114,7 +114,7 @@
 .btn-animation.collision.color3 {
   position: relative;
   color: #bd7329;
-  background-color: #bd73294d;
+  background-color: #bd732923;
 }
 .btn-animation.collision.color3:before,
 .btn-animation.collision.color3:after {
@@ -130,7 +130,7 @@
 .btn-animation.collision.color4 {
   position: relative;
   color: #4D6262;
-  background-color: #4d62623b;
+  background-color: #4d626223;
 }
 .btn-animation.collision.color4:before,
 .btn-animation.collision.color4:after {
@@ -270,4 +270,15 @@ a.btn-animation:hover {
   background-color: #bf9b90;
   color: white;
   margin-top: 5px;
+}
+
+
+.color-principal.active{
+  color: #D24C2B !important;
+  background-color: #f8eae6 !important;
+}
+
+.color-principal:hover{
+  color: #D24C2B !important;
+  background-color: #f8eae6 !important;
 }

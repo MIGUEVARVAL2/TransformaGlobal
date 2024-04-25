@@ -182,6 +182,12 @@ footer a:hover{
   background-color: #f8eae6;
   border-color: #D24C2B;
 }
+.btn-outline-primary:active {
+  color: black !important;;
+  background-color: #ffe2db !important;
+  border-color: #D24C2B !important;
+}
+
 
 .btn-outline-primary:hover {
   color: black;
@@ -289,3 +295,4 @@ footer a {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.274) !important;
   transition: all 0.5s;
 }
+
