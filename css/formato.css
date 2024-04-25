@@ -73,6 +73,20 @@
   }
 }
 
+@keyframes opacidad2 {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body{
+  animation: opacidad 2s ease;
+}
+
 
 * {
   font-family: 'Barlow-Medium', sans-serif;
@@ -182,7 +196,7 @@ footer a:hover{
 }
 
 .botones-flotantes {
-  position: absolute;
+  position: fixed;
   top: 35%;
   right: 0px;
   z-index: 1000;
@@ -259,4 +273,19 @@ footer a {
   bottom: 20px;
   right: 20px;
   z-index: 1000;
+}
+
+.color-principal{
+  color: #D24C2B;
+}
+
+.animation-color:hover{
+  background-color: #fed6af83;
+  color: #D24C2B;
+  animation: opacidad2 1.5s ease;
+}
+
+.card:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.274) !important;
+  transition: all 0.5s;
 }

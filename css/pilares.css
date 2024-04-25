@@ -1,0 +1,93 @@
+
+  
+  .main-container {
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .centering-container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  
+  .flex-container {
+    display: flex;
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  .flex-component {
+    -webkit-box-flex: 1;
+    flex: 1 20%;
+    padding: 25px 20px 40px 20px;
+    transition: all .5s;
+    position: relative;
+    min-height: 350px;
+    border-left: 1px solid rgba(44, 43, 43, 0.2);
+  }
+  .flex-component:first-child {
+    border: none;
+  }
+  
+  .flex-component:hover {
+    flex: 1 40%;
+  }
+  
+  .flexing {
+    -webkit-box-flex: 1;
+    flex: 1 40%;
+  }
+  
+  .number {
+    display: block;
+    position: asbolute;
+    font-size: 90px;
+    font-weight: 300;
+    transform: scale(0.33);
+    transform-origin: top left;
+    top: 25px;
+    transition: transform .5s;
+    
+  }
+  .flex-component:hover .number {
+    transform: scale(1);
+  }
+  
+  .info {
+    position: absolute;
+    top: 55px;
+    transition: top .2s;
+    
+  }
+  .flex-component:hover .info {
+    top: 150px;
+  }
+  
+  
+  .text-pilares {
+    transform: translateY(90px) translateX(0px);
+    padding-right: 50px;
+    opacity: 0;
+    font-size: 14px;
+    line-height: 22px;
+    transition: .5s;
+  
+  }
+  .flex-component:hover .text-pilares {
+    transform: translateY(0px) translateX(0px);
+    opacity: 1;
+  }
+  
+  .icono-pilar {
+    max-width: 250px;
+    display: block;
+    transition: opacity .5s;
+  }
+  .flex-component:hover .icono-pilar  {
+    opacity: 0;
+  }
+  
