@@ -306,6 +306,7 @@ time {
 
 .btn-referencia-documento:hover {
   animation: pulsar 1s ease infinite;
+  color: white;
 }
 
 

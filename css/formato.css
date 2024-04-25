@@ -169,6 +169,12 @@ footer a:hover{
   border-color: #D24C2B;
 }
 
+.btn-outline-primary:hover {
+  color: black;
+  background-color: #f8eae6;
+  border-color: #D24C2B;
+}
+
 .contenedor-opciones {
   margin: 10px;
   font-size: 12px;
@@ -179,6 +185,7 @@ footer a:hover{
   position: absolute;
   top: 35%;
   right: 0px;
+  z-index: 1000;
 }
 
 .btn-normograma {
