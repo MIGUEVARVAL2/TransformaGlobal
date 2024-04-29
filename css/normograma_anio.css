@@ -256,7 +256,6 @@ time {
   display: flex;
   align-items: center;
   padding: 5px;
-  color: white;
   background: rgba(255, 255, 255, 0.65);
 }
 
@@ -266,17 +265,12 @@ time {
 }
 
 
-.footer-norma a,p {
-  color: rgb(228, 227, 227);
-}
-
 .footer-norma a:hover {
-  color: white;
   animation: aparecer 1s ease;
 }
 
 .items-anios {
-  display: flex ;
+  display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -301,7 +295,6 @@ time {
 .items-anios .nav-link.active:hover {
   background-color: #4D6262;
   font-weight: bold;
-  color: white;
 }
 
 .btn-referencia-documento:hover {
@@ -310,50 +303,90 @@ time {
 }
 
 
+
 .renovables,
-.renovables:hover{
-  border: 2px solid #F2AC34;
-  background-color: #F2AC34;
-  color: white;
+.renovables:hover {
+  border: 4px solid #FC9A36;
+  background-color: #FC9A36;
   margin-top: 5px;
 }
 
 .cambio-climatico,
-.cambio-climatico:hover{
-  border: 2px solid #C2CDCD;
+.cambio-climatico:hover {
+  border: 4px solid #C2CDCD;
   background-color: #C2CDCD;
   color: white;
   margin-top: 5px;
 }
 
+.eficiencia-energetica,
+.eficiencia-energetica:hover {
+  border: 4px solid #345D59;
+  background-color: #345D59;
+  color: white;
+  margin-top: 5px;
+}
+
 .movilidad-electrica,
-.movilidad-electrica:hover{
-  border: 2px solid #015C6B;
-  background-color: #015C6B;
+.movilidad-electrica:hover {
+  border: 4px solid #F6DBD5;
+  background-color: #F6DBD5;
   color: white;
   margin-top: 5px;
 }
 
-.planes-desarrollo,
-.planes-desarrollo:hover{
-  border: 2px solid #D24C2B;
-  background-color: #D24C2B;
+.mineria-estrategica,
+.mineria-estrategica:hover {
+  border: 4px solid #ED7000;
+  background-color: #ED7000;
   color: white;
   margin-top: 5px;
 }
 
-.gas,
-.gas:hover{
-  border: 2px solid #7C473D;
+.phase-out-combustibles-fosiles,
+.phase-out-combustibles-fosiles:hover {
+  border: 4px solid #7C473D;
   background-color: #7C473D;
   color: white;
   margin-top: 5px;
 }
 
-.reforma-tributaria,
-.reforma-tributaria:hover{
-  border: 2px solid #BF9B90;
-  background-color: #BF9B90;
+.hidrogeno,
+.hidrogeno:hover {
+  border: 4px solid #9E3920;
+  background-color: #9E3920;
+  color: white;
+  margin-top: 5px;
+}
+
+.biocombustibles,
+.biocombustibles:hover {
+  border: 4px solid #4D6262;
+  background-color: #4D6262;
+  color: white;
+  margin-top: 5px;
+}
+
+.congeneracion-autogeneracion,
+.congeneracion-autogeneracion:hover {
+  border: 4px solid #E7EBEB;
+  background-color: #E7EBEB;
+  color: black;
+  margin-top: 5px;
+}
+
+.financiamiento,
+.financiamiento:hover {
+  border: 4px solid #FED7AF;
+  background-color: #FED7AF;
+  color: white;
+  margin-top: 5px;
+}
+
+.marco-habilitante,
+.marco-habilitante:hover {
+  border: 4px solid #D24C2B;
+  background-color: #D24C2B;
   color: white;
   margin-top: 5px;
 }

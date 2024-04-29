@@ -1,0 +1,69 @@
+.renovables,
+.renovables:hover {
+    border: 4px solid #FC9A36;
+    color: black;
+}
+
+.cambio-climatico,
+.cambio-climatico:hover {
+    border: 4px solid #C2CDCD ; 
+    color: black;
+}
+
+.eficiencia-energetica,
+.eficiencia-energetica:hover {
+    border: 4px solid #345D59;
+    color: black;
+}
+
+.movilidad-electrica,
+.movilidad-electrica:hover {
+    border: 4px solid #F6DBD5;
+    color: black;
+}
+
+.mineria-estrategica,
+.mineria-estrategica:hover {
+    border: 4px solid #ED7000;
+    color: black;
+}
+
+.phase-out-combustibles-fosiles,
+.phase-out-combustibles-fosiles:hover {
+    border: 4px solid #7C473D ;
+    color: black;
+}
+
+.hidrogeno,
+.hidrogeno:hover {
+    border: 4px solid #9E3920 ;
+    color: black;
+}
+
+.biocombustibles,
+.biocombustibles:hover {
+    border: 4px solid #4D6262 ;
+    color: black;
+}
+
+.congeneracion-autogeneracion,
+.congeneracion-autogeneracion:hover {
+    border: 4px solid #E7EBEB ;
+    color: black;
+}
+
+.financiamiento,
+.financiamiento:hover {
+    border: 4px solid #FED7AF ;
+    color: black;
+}
+
+.marco-habilitante,
+.marco-habilitante:hover {
+    border: 4px solid #D24C2B;
+    color: black;
+}
+
+.card-title{
+    margin-bottom: 0px;
+}

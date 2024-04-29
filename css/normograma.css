@@ -65,6 +65,21 @@
     height: 475px;
   }
 }
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .btn-animation {
   position: relative;
   display: flex;
@@ -176,102 +191,6 @@ a.btn-animation:hover {
   color: white;
 }
 
-.renovables,
-.renovables:hover {
-  border: 2px solid #f2ac34;
-  background-color: #f2ac34;
-  color: white;
-  margin-top: 5px;
-}
-
-.cambio-climatico,
-.cambio-climatico:hover {
-  border: 2px solid #c2cdcd;
-  background-color: #c2cdcd;
-  color: white;
-  margin-top: 5px;
-}
-
-.movilidad-electrica,
-.movilidad-electrica:hover {
-  border: 2px solid #015c6b;
-  background-color: #015c6b;
-  color: white;
-  margin-top: 5px;
-}
-
-.planes-desarrollo,
-.planes-desarrollo:hover {
-  border: 2px solid #d24c2b;
-  background-color: #d24c2b;
-  color: white;
-  margin-top: 5px;
-}
-
-.gas,
-.gas:hover {
-  border: 2px solid #7c473d;
-  background-color: #7c473d;
-  color: white;
-  margin-top: 5px;
-}
-
-.reforma-tributaria,
-.reforma-tributaria:hover {
-  border: 2px solid #bf9b90;
-  background-color: #bf9b90;
-  color: white;
-  margin-top: 5px;
-}
-
-.renovables,
-.renovables:hover {
-  border: 2px solid #f2ac34;
-  background-color: #f2ac34;
-  color: white;
-  margin-top: 5px;
-}
-
-.cambio-climatico,
-.cambio-climatico:hover {
-  border: 2px solid #c2cdcd;
-  background-color: #c2cdcd;
-  color: white;
-  margin-top: 5px;
-}
-
-.movilidad-electrica,
-.movilidad-electrica:hover {
-  border: 2px solid #015c6b;
-  background-color: #015c6b;
-  color: white;
-  margin-top: 5px;
-}
-
-.planes-desarrollo,
-.planes-desarrollo:hover {
-  border: 2px solid #d24c2b;
-  background-color: #d24c2b;
-  color: white;
-  margin-top: 5px;
-}
-
-.gas,
-.gas:hover {
-  border: 2px solid #7c473d;
-  background-color: #7c473d;
-  color: white;
-  margin-top: 5px;
-}
-
-.reforma-tributaria,
-.reforma-tributaria:hover {
-  border: 2px solid #bf9b90;
-  background-color: #bf9b90;
-  color: white;
-  margin-top: 5px;
-}
-
 
 .color-principal.active{
   color: #D24C2B !important;
@@ -281,4 +200,30 @@ a.btn-animation:hover {
 .color-principal:hover{
   color: #D24C2B !important;
   background-color: #f8eae6 !important;
+}
+
+
+
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btn-referencia-documento:hover {
+  animation: pulsar 1s ease infinite;
+  color: white;
+}
+
+.btn-referencia-documento{
+  padding-left: 8px;
 }

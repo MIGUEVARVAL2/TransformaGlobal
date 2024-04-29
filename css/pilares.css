@@ -83,7 +83,9 @@
   }
   
   .icono-pilar {
-    max-width: 250px;
+    position: absolute;
+    bottom: 10px;
+    width: 150px;
     display: block;
     transition: opacity .5s;
   }
