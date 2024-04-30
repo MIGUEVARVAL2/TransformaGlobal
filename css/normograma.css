@@ -227,3 +227,63 @@ a.btn-animation:hover {
 .btn-referencia-documento{
   padding-left: 8px;
 }
+
+
+.renovables,
+.renovables:hover {
+    border: 4px solid #FC9A36;
+}
+
+.cambio-climatico,
+.cambio-climatico:hover {
+    border: 4px solid #C2CDCD;
+}
+
+.eficiencia-energetica,
+.eficiencia-energetica:hover {
+    border: 4px solid #51902F;
+}
+
+.movilidad-electrica,
+.movilidad-electrica:hover {
+    border: 4px solid #015C6B;
+}
+
+.mineria-estrategica,
+.mineria-estrategica:hover {
+    border: 4px solid #ED7000;
+}
+
+.phase-out-combustibles-fosiles,
+.phase-out-combustibles-fosiles:hover {
+    border: 4px solid #7C473D;
+}
+
+.hidrogeno,
+.hidrogeno:hover {
+    border: 4px solid #345D59;
+}
+
+.biocombustibles,
+.biocombustibles:hover {
+    border: 4px solid #FED7AF;
+}
+
+.congeneracion-autogeneracion,
+.congeneracion-autogeneracion:hover {
+    border: 4px solid #678283;
+}
+
+.financiamiento,
+.financiamiento:hover {
+    border: 4px solid #BF9B90;
+}
+
+.marco-habilitante,
+.marco-habilitante:hover {
+    border: 4px solid #D24C2B;
+}
+
+.card-title{
+    margin-bottom: 0px;
+}

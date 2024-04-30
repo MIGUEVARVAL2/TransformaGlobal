@@ -94,6 +94,7 @@ section .section-title {
     -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
     -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
     box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+
 }
 
 .frontside,
@@ -116,13 +117,22 @@ section .section-title {
 
 .frontside .card,
 .backside .card {
-    min-height: 312px;
+    height: 312px;
+    width: 100%;
+}
+
+.backside .card {
+    overflow-y: scroll;
 }
 
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: white;
+    color: BLACK !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .frontside .card .card-body img {
@@ -131,3 +141,6 @@ section .section-title {
     margin-top: 10px;
 }
 
+.backside .card .card-body {
+    margin-bottom: 10px;
+}
