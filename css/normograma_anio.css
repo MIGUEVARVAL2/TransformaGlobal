@@ -207,6 +207,13 @@ time {
   animation: scaleAnimation 2s infinite;
 }
 
+.anular-animacion, .anular-animacion:hover, .anular-animacion:active, .anular-animacion:focus,.anular-animacion::after, .anular-animacion::before {
+  animation: none !important;
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+} 
+
 @keyframes scaleAnimation {
   0% {
     transform: translateX(-50%) scale(1);

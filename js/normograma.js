@@ -34,6 +34,8 @@
       for (var i = 1; i < items.length; i++) {
         items[i].classList.remove("in-view");
       }
+      setTimeout(function () { for (var i = 0; i < items.length; i++) { if (isElementInViewport(items[i])) { items[i].classList.add("in-view"); } } }, 2000);
+
     });
   });
 
